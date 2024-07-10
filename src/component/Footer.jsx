@@ -13,8 +13,21 @@ const Footer = () => {
               className=" flex flex-row gap-10 items-center
             "
             >
-              <FaLinkedinIn className="text-4xl text-white cursor-pointer hover:scale-110" />
-              <FaGithub className="text-3xl text-white cursor-pointer hover:scale-110" />
+              <a
+                href="https://linkedin.com/in/gbadegesin-ridwan-o"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <FaLinkedinIn className="text-4xl text-white cursor-pointer hover:scale-110" />
+              </a>
+              <a
+                href="https://github.com/Gesin1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub className="text-3xl text-white cursor-pointer hover:scale-110" />{" "}
+              </a>
             </div>
           </div>
         </div>

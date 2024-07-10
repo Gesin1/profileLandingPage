@@ -25,18 +25,20 @@ const About = () => {
                 based in Lagos, Nigeria📍
               </h4>
               <p className="text-3xl font-karla  ">
-                My name is Raul and I am a talented barber and full stack
-                developer. I have been working in the barbering industry for
-                three decades and have developed a keen eye for details. In my
-                free time, I enjoy listening to music and drawing, I have always
-                had a love for music and find that it helps to relax and inspire
-                me in my work.
+                My name is Ridwan, I am a talented entrepreneur and a full stack
+                developer. I have work in many field of life. I found myself
+                following my dad to site as an electrician which make me a
+                professional in that field and I went on to read electrical and
+                computer engineering in University. I have passion in building
+                something that is working so I started a tech company which make
+                me learn many skill like product management, sale, uiux and
+                leadership skill.
                 <br />
-                <br />I initially started coding as a hobby, but quickly
-                realized that it was something I was truly passionate about and
-                decided to pursue a career change. It was a big decision, but I
-                am excited to be able to do what I love and help others in the
-                process
+                <br />I initially started coding when my company filed due to
+                lack of my expertise in frontend and backend field and since I
+                have little or no money to employ good one. It's a big decision
+                for me to change my career to developer, but I love it because
+                it make me help lot of business.
               </p>
             </div>
           </div>

@@ -16,39 +16,57 @@ const Contact = () => {
             </p>
           </div>
           <div className=" grid lg:grid-cols-3 gap-8">
-            <div className="flex flex-row border border-stone-500 rounded-xl shadow-lg py-10 pl-14 bg-stone-100 items-center transition-all duration-700 ease-in-out  hover:shadow-3xl hover:shadow-black hover:bg-white cursor-pointer">
-              <img src={link} alt="linkedln" className="w-[55px] h-[55px]" />
-              <div className="flex flex-col ml-8">
-                <h1 className="ms:text-5xl text-4xl text-blueblack font-bold ">
-                  Linkedln
-                </h1>
-                <p className="text-2xl text-stone-500 font-semibold">
-                  Connect with me.
-                </p>
+            <a
+              href="https://linkedin.com/in/gbadegesin-ridwan-o"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex flex-row border border-stone-500 rounded-xl shadow-lg py-10 pl-14 bg-stone-100 items-center transition-all duration-700 ease-in-out  hover:shadow-3xl hover:shadow-black hover:bg-white cursor-pointer">
+                <img src={link} alt="linkedln" className="w-[55px] h-[55px]" />
+                <div className="flex flex-col ml-8">
+                  <h1 className="ms:text-5xl text-4xl text-blueblack font-bold ">
+                    Linkedln
+                  </h1>
+                  <p className="text-2xl text-stone-500 font-semibold">
+                    Connect with me.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-row border border-stone-500 rounded-xl shadow-lg py-10 pl-14 bg-stone-100 items-center transition-all duration-700 ease-in-out  hover:shadow-3xl hover:shadow-black hover:bg-white cursor-pointer">
-              <img src={mail} alt="Email" className="w-[55px] h-[55px]" />
-              <div className="flex flex-col ml-8">
-                <h1 className="ms:text-5xl text-4xl text-blueblack font-bold ">
-                  Email
-                </h1>
-                <p className="text-2xl text-stone-500 font-semibold">
-                  Let's get in touch.
-                </p>
+            </a>
+            <a
+              href="https://gbadegesinridwan611@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex flex-row border border-stone-500 rounded-xl shadow-lg py-10 pl-14 bg-stone-100 items-center transition-all duration-700 ease-in-out  hover:shadow-3xl hover:shadow-black hover:bg-white cursor-pointer">
+                <img src={mail} alt="Email" className="w-[55px] h-[55px]" />
+                <div className="flex flex-col ml-8">
+                  <h1 className="ms:text-5xl text-4xl text-blueblack font-bold ">
+                    Email
+                  </h1>
+                  <p className="text-2xl text-stone-500 font-semibold">
+                    Let's get in touch.
+                  </p>
+                </div>
+              </div>{" "}
+            </a>
+            <a
+              href="https://github.com/Gesin1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex flex-row border border-stone-500 rounded-xl shadow-lg py-10 pl-14 bg-stone-100 items-center transition-all duration-700 ease-in-out  hover:shadow-3xl hover:shadow-black hover:bg-white cursor-pointer">
+                <img src={github} alt="gitHub" className="w-[55px] h-[55px]" />
+                <div className="flex flex-col ml-8">
+                  <h1 className="ms:text-5xl text-4xl text-blueblack font-bold ">
+                    GitHub
+                  </h1>
+                  <p className="text-2xl text-stone-500 font-semibold">
+                    Check out my work.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-row border border-stone-500 rounded-xl shadow-lg py-10 pl-14 bg-stone-100 items-center transition-all duration-700 ease-in-out  hover:shadow-3xl hover:shadow-black hover:bg-white cursor-pointer">
-              <img src={github} alt="gitHub" className="w-[55px] h-[55px]" />
-              <div className="flex flex-col ml-8">
-                <h1 className="ms:text-5xl text-4xl text-blueblack font-bold ">
-                  GitHub
-                </h1>
-                <p className="text-2xl text-stone-500 font-semibold">
-                  Check out my work.
-                </p>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>

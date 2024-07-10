@@ -26,14 +26,22 @@ const Home = () => {
                   in Lagos, Nigeria 📍
                 </p>
                 <span className="flex justify-center lg:justify-start :flex-row gap-6 my-4">
-                  <a href="http://" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://linkedin.com/in/gbadegesin-ridwan-o"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img
                       src={linkedln}
                       alt="linkedin"
                       className="h-[40px] w-[40px]  cursor-pointer"
                     />
                   </a>
-                  <a href="http://" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://github.com/Gesin1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img
                       src={GitHub}
                       alt="GitHub"
