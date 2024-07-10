@@ -13,7 +13,7 @@ const About = () => {
           <div className=" grid grid-cols-1 lg:grid-cols-2 justify-center items-center text-center lg:text-start place-items-center lg:place-items-start ">
             <img
               src={
-                "https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp"
+                "https://images.unsplash.com/photo-1612653030120-4acd623d351a?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               }
               alt="Gbadegsein"
               className="h-[35rem] w-[41rem] mt-12 rounded-3xl"
