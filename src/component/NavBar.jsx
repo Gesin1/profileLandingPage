@@ -19,16 +19,16 @@ const NavBar = () => {
           }`}
         >
           <li className="px-7 font-mark text-blueblack hover:text-blue-500 transition-colors">
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li className="px-7  font-mark text-blueblack hover:text-blue-500 transition-colors">
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li className="px-7  font-mark text-blueblack hover:text-blue-500 transition-colors">
-            <a href="#">Project</a>
+            <a href="#project">Project</a>
           </li>
           <li className="px-7  font-mark text-blueblack hover:text-blue-500 transition-colors">
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         <FaBars

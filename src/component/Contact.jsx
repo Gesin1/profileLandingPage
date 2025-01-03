@@ -5,7 +5,7 @@ import github from "../assets/img/github.svg";
 const Contact = () => {
   return (
     <>
-      <section className="bg-white py-32 lg:pt-28 lg:py-64">
+      <section id="contact" className="bg-white py-32 lg:pt-28 lg:py-64">
         <div className="my-0 mx-auto max-w-[107rem] py-0 px-16 ">
           <div className="text-center lg:text-start ">
             <h1 className="text-6xl text-blue-500 underline underline-offset-4 font-mark font-bold mb-10 text-center ">

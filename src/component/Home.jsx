@@ -12,7 +12,10 @@ import linkedln from "../assets/img/LinkedIn2.svg";
 const Home = () => {
   return (
     <>
-      <section className="bg-slate-100 lg:h-screen w-auto relative flex-col ">
+      <section
+        id="home"
+        className="bg-slate-100 lg:h-screen w-auto relative flex-col "
+      >
         <div className="my-0 mx-auto max-w-[100rem] py-0 px-16">
           <div className="flex flex-col items-center justify-center h-auto lg:h-[61rem] relative gap-12 lg:gap-20  ">
             <div className="flex flex-col-reverse lg:flex-row justify-center items-center h-auto gap-12 lg:gap-40 text-center relative transition-all duration-700 ease-in-out mt-40 ">

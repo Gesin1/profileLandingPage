@@ -3,7 +3,7 @@ import Gbadegesin from "../assets/img/Gbadegesin.png";
 const About = () => {
   return (
     <>
-      <section className="bg-white py-32">
+      <section id="about" className="bg-white py-32">
         <div className="my-0 mx-auto max-w-[107rem] py-0 px-16 ">
           <div className="text-center">
             <h1 className="font-mark text-6xl font-bold text-blue-500 underline underline-offset-8 mb-10">
